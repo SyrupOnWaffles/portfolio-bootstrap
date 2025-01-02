@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+      <h1 class="mb-4 display-2 fw-bold">Syruponwaffles' Portoflio</h1> 
+      <main>
+      <h1 class="fw-bold">About Me</h1> 
+      <div class="container">
+        <p>Hey my name is Nicholas Korzeniowski and im a programmer from Alberta Canada.</p>
+      </div>
+      
+      <h2 class="fw-bold">Stuff Im Pretty Good In</h2>
+      
+      <div class="row container">
+        <div class="col">
+          <h5 class="fw-bold">Programming Languages</h5>
+          <ul>
+          <li>C</li>
+          <li>Python</li>
+          <li>Javascript</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h5 class="fw-bold">Gamedev Tools</h5>
+          <ul>  
+            <li>Godot</li>
+            <li>Pygame</li>
+            <li>Raylib</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h5 class="fw-bold">Backends/Databases</h5>
+          <ul>
+            <li>Django</li>
+            <li>Flask</li>
+            <li>Pocketbase</li>
+            <li>Mongo-db</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h5 class="fw-bold">Frontend Tools</h5>
+          <ul>
+            <li>Bootstrap</li>
+            <li>Alpine</li>
+            <li>Svelte</li>
+          </ul>
+        </div>
+      </div>
+      
+      <h1 class="fw-bold">Projects</h1>
+            
+      <div class="row container mb-2">
+        <div class="col">
+          <img class="img-fluid" src="/gameserver.png">
+        </div>
+        <div class="col">
+          <p>I made several basic networking projects from scratch, only with sockets such as <a href="https://github.com/SyrupOnWaffles/raycaster">a simple node.js game server</a> which syncs player positions across multiple clients, and <a href="https://github.com/SyrupOnWaffles/c-http-server">a web server written in pure c</a> which serves static files.</p>
+        </div>
+      </div>
+      <div class="row container mb-2">
+        <div class="col">
+          <img class="img-fluid" src="/bannockchat.png">
+        </div>
+        <div class="col">
+          <p>I have also made several web apps including a real time chat app like Discord called <a href="https://bannockchat.l5.ca">Bannock Chat</a> built with vanilla JS and Flask. To increase security, I ran this server through an Nginx reverse proxy to deal with encryption, rate limiting etc.</p>
+        </div>
+      </div>
+      <div class="row container mb-2">
+        <div class="col">
+          <img class="img-fluid" src="/thegoodestdrawersclub.png">
+        </div>
+        <div class="col">
+          <p>Another webapp I developed was a social media called <a href="https://thegoodestdrawers.club">The Goodest Drawers Club</a>  where the content is user drawn. It is built with Django and hosted with docker on a self hosted  <a href="https://coolify.io/">Coolify</a> instance.</p>
+        </div>
+      </div>
+      <div class="row container mb-2">
+        <div class="col">
+          <img class="img-fluid" src="/softwarerendering.png">
+        </div>
+        <div class="col">
+          <p>In the past I made a couple software renderers including one in <a href="https://github.com/SyrupOnWaffles/Pygame-3D-Engine-WIP-">Pygame</a> and one in <a href="https://github.com/SyrupOnWaffles/terminalmodelviewer">the Unix Terminal</a>. I have also done Psuedo 3D with a <a href="https://github.com/SyrupOnWaffles/raycaster">raycasting engine</a> in vanilla JS.</p>
+        </div>
+      </div>
+      
+      <div class="row container mb-2">
+        <div class="col">
+          <img class="img-fluid" src="/biking.png">
+        </div>
+        <div class="col">
+          <p>Worked in Godot and made several games including a  <a href="https://itch.io/jam/joystick-input-jam">winner of the analog joystick input jam #1</a></p>
+        </div>
+      </div>
+      
+
+      <script>
+        console.log('test')
+      </script>
+      
+      <h1 class="fw-bold">Thanks for reading.</h1>
+      </main>
+    </div>
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="https://github.com/SyrupOnWaffles" class="nav-link px-2 text-body-secondary">Github</a></li>
+          <li class="nav-item"><a href="https://syruponwaffles.itch.io/" class="nav-link px-2 text-body-secondary">Itch.io</a></li>
+          <li class="nav-item"><a href="mailto:syruponwaffles@420blaze.it" class="nav-link px-2 text-body-secondary">Email</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024</p>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
